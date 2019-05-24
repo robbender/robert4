@@ -1,11 +1,11 @@
 <template>
   <div id="app">
   <v-app id="inspire">
-    <main class="w-100 min-vh-100 bg-gray8 white sans-serif pa6 flex flex-column justify-center items-center">
+    <main id="bg-color" class="w-100 min-vh-100 sans-serif pa6 flex flex-column justify-center items-center">
       <div class="mw8 center overflow-hidden">
-        <h2 class="tc ttu tracked3 b f2 mt0 mb2 teal0 o-30">vue-fontawesome</h2>
+        <h2 class="tc ttu tracked3 b f2 mt0 mb2 o-30">vue-fontawesome</h2>
 
-        <ul class="list ma0 pa0 flex flex-row flex-wrap teal4">
+        <ul class="list ma0 pa0 flex flex-row flex-wrap ">
           <li class="pv3 ph2 ma0 link grow">
             <font-awesome-icon icon="coffee" size="4x" />
           </li>
@@ -51,7 +51,21 @@ export default {
 body {
   margin: 0;
   padding: 0;
+  /* background-color: #3AAFA9; */
 }
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    background-color: #3AAFA9;
+}
+#bg-color {
+  background-color: #3AAFA9;
+}
+
+#17252A
 
 h1, h2 {
   font-weight: normal;
