@@ -21,32 +21,25 @@
                             <v-icon>home</v-icon>
                         </v-list-tile-action>
                         <v-list-tile-content>
-                          <router-link to="/">Home</router-link>
+                            <router-link to="/">Home</router-link>
                             <!-- <v-list-tile-title>Home</v-list-tile-title> -->
                         </v-list-tile-content>
                     </v-list-tile>
                     <v-list-tile @click="">
                         <v-list-tile-action>
                             <v-icon>person</v-icon>
-                            </v-list-tile-action>
-
-                            <!-- <v-list-tile-content>
-                                <router-link to="/about">About</router-link>
-                            </v-list-tile-content> -->
-
                         </v-list-tile-action>
                         <v-list-tile-content>
-                          <router-link to="/about">About</router-link>
+                            <router-link to="/about">About</router-link>
                             <!-- <v-list-tile-title>About</v-list-tile-title> -->
                         </v-list-tile-content>
                     </v-list-tile>
-
                     <v-list-tile @click="">
                         <v-list-tile-action>
                             <v-icon>contact_mail</v-icon>
                         </v-list-tile-action>
                         <v-list-tile-content>
-                          <router-link to="/contact">Contact</router-link>
+                            <router-link to="/contact">Contact</router-link>
                             <!-- <v-list-tile-title>Contact</v-list-tile-title> -->
                         </v-list-tile-content>
                     </v-list-tile>
@@ -68,9 +61,8 @@
                 </v-btn>
             </v-toolbar>
             <v-content>
-                <Landing />
+
             </v-content>
-            </v-app>
         </template>
 
     </div>
