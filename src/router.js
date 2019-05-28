@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Contact from './views/Contact.vue'
+import Experience from './views/Experience.vue'
 
 
 Vue.use(Router)
@@ -26,11 +27,11 @@ export default new Router({
       name: 'contact',
       component: Contact
     },
-    // {
-    //   path: '/experience',
-    //   name: 'experience',
-    //   component: Experience
-    // },
+    {
+      path: '/experience',
+      name: 'experience',
+      component: Experience
+    },
 
 
   ]
