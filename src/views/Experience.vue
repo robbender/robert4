@@ -1,7 +1,7 @@
 <template>
-<div id="app">
-  <v-app id="inspire">
-    <div>
+<div id="">
+  <v-app id="">
+    <v-container>
       <div class="d-flex justify-between align-center mb-3">
         <v-btn @click="all">all</v-btn>
         <v-btn @click="none">none</v-btn>
@@ -23,7 +23,7 @@
           </v-card>
         </v-expansion-panel-content>
       </v-expansion-panel>
-    </div>
+    </v-container>
   </v-app>
 </div>
 </template>

@@ -50,6 +50,17 @@
                             <!-- <v-list-tile-title>Contact</v-list-tile-title> -->
                         </v-list-tile-content>
                     </v-list-tile>
+
+                    <v-list-tile @click="">
+                        <v-list-tile-action>
+                            <v-icon>work</v-icon>
+                        </v-list-tile-action>
+                        <v-list-tile-content>
+                          <router-link to="/experience">Experience</router-link>
+                            <!-- <v-list-tile-title>Contact</v-list-tile-title> -->
+                        </v-list-tile-content>
+                    </v-list-tile>
+
                 </v-list>
             </v-navigation-drawer>
             <v-toolbar app color="#def2f1">
