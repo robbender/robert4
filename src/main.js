@@ -3,6 +3,7 @@ import './plugins/vuetify'
 import App from './App.vue'
 import router from './router'
 import Vuetify from 'vuetify'
+import VeeValidate from 'vee-validate'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faCoffee, faChild, faCircle, faArchive, faCode, faIdBadge } from '@fortawesome/free-solid-svg-icons'
@@ -24,7 +25,8 @@ library.add(
   faIdBadge
 )
 
-Vue.use(Vuetify)
+Vue.use(Vuetify);
+Vue.use(VeeValidate)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.component('font-awesome-layers', FontAwesomeLayers)

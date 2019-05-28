@@ -59,7 +59,7 @@
                     <span class="font-weight-light">Bender</span>
                 </v-toolbar-title>
                 <v-spacer></v-spacer>
-                <v-btn flat href="https://github.com/vuetifyjs/vuetify/releases/latest" target="_blank">
+                <v-btn flat href="" target="">
                     <span class="mr-2">Contact Me</span>
                 </v-btn>
                 <v-btn icon>
@@ -68,7 +68,7 @@
                 </v-btn>
             </v-toolbar>
             <v-content>
-                <Landing />
+
             </v-content>
             </v-app>
         </template>
@@ -80,9 +80,11 @@
 
 <script>
 // import Landing from './components/Landing'
+
 export default {
     name: 'App',
     components: {
+    
     },
     data: () => ({
         drawer: false,
@@ -121,6 +123,8 @@ li {
     margin: 0 10px;
 }
 a {
-    color: #42b983;
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
 }
 </style>
