@@ -1,5 +1,6 @@
 <template>
-  <v-container>
+<div class="design">
+  <v-container id="app">
     <v-layout
       text-xs-center
       wrap
@@ -29,6 +30,7 @@
       </v-flex>
     </v-layout>
   </v-container>
+  </div>
 </template>
 
 <script>
@@ -46,8 +48,11 @@ export default {
 body {
   margin: 0;
   padding: 0;
-  /* background-color: #3AAFA9; */
 }
+.design {
+  background-color: #2b7a78;
+}
+
 #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -57,7 +62,12 @@ body {
     background-color: #3AAFA9;
 }
 
+/* 
 #17252A
+#2b7a78
+#3AAFA9
+#def2f1 
+*/
 
 h1, h2 {
   font-weight: normal;

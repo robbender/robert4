@@ -1,4 +1,5 @@
 <template>
+<v-container class="layout">
     <v-layout align-center>
       <v-item-group
         v-model="window"
@@ -60,6 +61,7 @@
         </v-window>
       </v-flex>
     </v-layout>
+    </v-container>
 </template>
 
 <script>
@@ -74,7 +76,11 @@ export default {
 
 </script>
 
-<style>
+<style scoped>
+
+.layout {
+  margin-top: 25px
+}
 
 .v-btn::before {
   color: black;
