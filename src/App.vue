@@ -78,8 +78,8 @@
             <v-toolbar app color="#def2f1">
                 <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
                 <v-toolbar-title class="headline text-uppercase">
-                    <span>Robert</span>
-                    <span class="font-weight-light">Bender</span>
+                    <v-btn class="display-1" flat color="">Robert
+                    <span class="font-weight-light">Bender</span></v-btn>
                 </v-toolbar-title>
                 <v-spacer></v-spacer>
                 <v-btn flat href="" target="">
