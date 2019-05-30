@@ -81,9 +81,7 @@
             <v-content>
 
             </v-content>
-            </v-app>
         </template>
-
     </div>
     <router-view />
 </div>
