@@ -17,61 +17,49 @@
             <v-navigation-drawer v-model="drawer" fixed app>
                 <v-list dense>
 
-                     <v-list-tile @click="">
+                    <v-list-tile @click="">
                         <v-list-tile-action>
-                            <router-link 
-                            to="/"
-                            tag="Home"
-                            >
-                            <v-btn flat icon color="">
-                                <v-icon>home</v-icon>
-                            </v-btn>
+                            <router-link to="/" tag="Home">
+                                <v-btn flat icon color="">
+                                    <v-icon>home</v-icon>
+                                </v-btn>
                             </router-link>
-                             </v-list-tile-action>
-                            <router-link to="/">Home</router-link>
-                        </v-list-tile>
+                        </v-list-tile-action>
+                        <router-link to="/">Home</router-link>
+                    </v-list-tile>
 
                     <v-list-tile @click="">
                         <v-list-tile-action>
-                             <router-link 
-                            to="/about"
-                            tag="About"
-                            >
-                             <v-btn flat icon color="">
-                                <v-icon>person</v-icon>
-                            </v-btn>
+                            <router-link to="/about" tag="About">
+                                <v-btn flat icon color="">
+                                    <v-icon>person</v-icon>
+                                </v-btn>
                             </router-link>
-                             </v-list-tile-action>
-                            <router-link to="/about">About</router-link>
-                        </v-list-tile>
+                        </v-list-tile-action>
+                        <router-link to="/about">About</router-link>
+                    </v-list-tile>
 
                     <v-list-tile @click="">
                         <v-list-tile-action>
-                            <router-link 
-                            to="/contact"
-                            tag="Contact"
-                            >
-                            <v-btn flat icon color="">
-                                <v-icon>contact_mail</v-icon>
-                            </v-btn>
+                            <router-link to="/contact" tag="Contact">
+                                <v-btn flat icon color="">
+                                    <v-icon>contact_mail</v-icon>
+                                </v-btn>
                             </router-link>
-                             </v-list-tile-action>
-                            <router-link to="/contact">Contact</router-link>
-                        </v-list-tile>
+                        </v-list-tile-action>
+                        <router-link to="/contact">Contact</router-link>
+                    </v-list-tile>
 
                     <v-list-tile @click="">
                         <v-list-tile-action>
-                            <router-link 
-                            to="/experience"
-                            tag="Experience"
-                            >
-                            <v-btn flat icon color="">
-                                <v-icon>work</v-icon>
-                            </v-btn>
+                            <router-link to="/experience" tag="Experience">
+                                <v-btn flat icon color="">
+                                    <v-icon>work</v-icon>
+                                </v-btn>
                             </router-link>
-                             </v-list-tile-action>
-                            <router-link to="/experience">Experience</router-link>
-                        </v-list-tile>
+                        </v-list-tile-action>
+                        <router-link to="/experience">Experience</router-link>
+                    </v-list-tile>
 
                 </v-list>
             </v-navigation-drawer>
@@ -79,10 +67,10 @@
                 <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
                 <v-toolbar-title class="headline text-uppercase">
                     <v-btn class="display-1" flat color="">Robert
-                    <span class="font-weight-light">Bender</span></v-btn>
+                        <span class="font-weight-light">Bender</span></v-btn>
                 </v-toolbar-title>
                 <v-spacer></v-spacer>
-                <v-btn flat href="" target="">
+                <v-btn flat href="/home" target="">
                     <span class="mr-2">Contact Me</span>
                 </v-btn>
                 <v-btn icon>
