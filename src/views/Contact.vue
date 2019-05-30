@@ -3,7 +3,7 @@
     <v-app id="">
         <H1>Contact Me</H1>
         <br>
-        <v-form v-model="valid">
+        <v-form v-model="valid" ref="form">
             <v-container>
                 <v-layout>
                     <v-flex xs12 md4>
@@ -20,8 +20,11 @@
                 </v-layout>
             </v-container>
             <v-container fluid grid-list-md>
-                <v-textarea name="input-7-1" box label="Your message:" auto-grow value=""></v-textarea>
+                <v-textarea name="input-7-1" :rules="messageRules" box label="Your message:" auto-grow value=""></v-textarea>
             </v-container>
+            <v-spacer></v-spacer>
+
+          <v-btn flat @click="submit" class="success mx-0 mt-3">send</v-btn>
         </v-form>
     </v-app>
 </div>
@@ -45,7 +48,19 @@ export default {
         emailRules: [
             v => !!v || 'E-mail is required',
             v => /.+@.+/.test(v) || 'E-mail must be valid'
-        ]
-    })
-}
+        ],
+        messageRules: [
+            v => !!v || 'There is no message',
+        ],
+    }),
+
+    methods: {
+    submit() {
+      if(this.$refs.form.validate()) {
+        console.log(this.title, this.content)
+          }
+        }
+      },
+    }
+
 </script>
