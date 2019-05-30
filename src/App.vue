@@ -17,7 +17,7 @@
             <v-navigation-drawer v-model="drawer" fixed app>
                 <v-list dense>
 
-                    <v-list-tile @click="">
+                    <v-list-tile>
                         <v-list-tile-action>
                             <router-link to="/" tag="Home">
                                 <v-btn flat icon color="">
@@ -28,7 +28,7 @@
                         <router-link to="/">Home</router-link>
                     </v-list-tile>
 
-                    <v-list-tile @click="">
+                    <v-list-tile>
                         <v-list-tile-action>
                             <router-link to="/about" tag="About">
                                 <v-btn flat icon color="">
@@ -39,7 +39,7 @@
                         <router-link to="/about">About</router-link>
                     </v-list-tile>
 
-                    <v-list-tile @click="">
+                    <v-list-tile>
                         <v-list-tile-action>
                             <router-link to="/contact" tag="Contact">
                                 <v-btn flat icon color="">
@@ -50,7 +50,7 @@
                         <router-link to="/contact">Contact</router-link>
                     </v-list-tile>
 
-                    <v-list-tile @click="">
+                    <v-list-tile>
                         <v-list-tile-action>
                             <router-link to="/experience" tag="Experience">
                                 <v-btn flat icon color="">
