@@ -58,9 +58,11 @@ export default {
     submit() {
       if(this.$refs.form.validate()) {
         console.log(this.title, this.content)
-          }
+        } else { 
+            console.log('No information sent.')
         }
-      },
-    }
+      }
+    },
+  }
 
 </script>
